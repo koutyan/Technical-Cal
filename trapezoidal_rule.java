@@ -22,7 +22,7 @@ public class trapezoidal_rule {
 		double tm2 = fx(b)/2;
 		
 		for (int i = 0; i < n - 1; i++){
-			tm = tm + fx(h * (i+1));
+			tm = tm + fx(a + h * (i+1));
 		}
 		
 		double ts = h * (tm1 + tm2 + tm);
