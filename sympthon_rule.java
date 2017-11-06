@@ -24,12 +24,11 @@ public class sympthon_rule {
 			if(i % 2 != 0){
 				tm1 = tm1 + fx(a + h*i);
 			}
-		}
-		for (int i = 1; i <= n; i++){
-			if(i % 2 == 0){
+			else{
 				tm2 = tm2 + fx(a + h*i);
 			}
 		}
+		
 		double ts = h * (tms + 4*tm1 + 2*tm2 + tmf) / 3;
 		
 		JOptionPane.showMessageDialog(null, ts);
