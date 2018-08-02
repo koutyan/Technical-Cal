@@ -1,5 +1,3 @@
-//Created by Kosuke Sakai
-
 import java.lang.Math;
 import javax.swing.JOptionPane;
 
